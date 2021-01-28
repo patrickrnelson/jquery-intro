@@ -15,4 +15,8 @@ function onReady() {
   (greenBackground = 'background-color'), 'green';
 
   h1.addClass('froggy');
+
+  const h1Text = h1.text();
+
+  const loudText = h1Text.toUpperCase();
 }
